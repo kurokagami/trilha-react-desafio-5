@@ -21,11 +21,12 @@ A customizable blog starter using:
 
 ## Table of Contents:
 
+- [Table of Contents:](#table-of-contents)
 - [Getting Started](#getting-started)
   - [Setting Up Locally](#setting-up-locally)
-  - [Using the Wizard](#using-the-setup-wizard)
-- [Configuring the Blog](#configuring-the-blog)
-- [Adding New Posts](#adding-new-posts)
+  - [Using the Setup Wizard](#using-the-setup-wizard)
+- [Configuring the blog](#configuring-the-blog)
+- [Adding new posts](#adding-new-posts)
 - [Testing](#testing)
   - [Included Default Testing](#included-default-testing)
   - [Removing Renovate](#removing-renovate)
@@ -137,3 +138,10 @@ And lastly if you’d like to remove Cypress entirely, delete the entire `cypres
 ```bash
 npm uninstall cypress
 ```
+
+<details>
+Implementação by Kuroi <br/>
+Criação de database supabase e api config com axios <br/>
+Desenvolvimento função (getPostBySlug) para buscar o post pelo Id e exibir na page [id] <br/>
+Tratamento de erro na page [id] no caso de nao encontrar post selecionado
+</details>

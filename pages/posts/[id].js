@@ -23,6 +23,10 @@ export default function PostPage({
   posts,
   globalData,
 }) {
+  // Condicão para caso o post não seja encontrado
+  if (!posts) {
+    return <p>Post não encontrado</p>;
+  }
   return (
     <Layout>
       <SEO
